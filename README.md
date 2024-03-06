@@ -44,6 +44,12 @@ VITE_SPREADSHEET_URL=<your-url>
 - A toast message will appear upon successful submission.
 
 
+## Deployment
+
+The project is deployed at vercel
+
+[Link](https://contact-form-mcymkkazg-prince-raghuwanshis-projects.vercel.app/contact)
+
 ## License
 This project is licensed under the
 [MIT License](https://choosealicense.com/licenses/mit/)
