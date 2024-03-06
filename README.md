@@ -48,7 +48,7 @@ VITE_SPREADSHEET_URL=<your-url>
 
 The project is deployed at vercel
 
-[Link](https://contact-form-mcymkkazg-prince-raghuwanshis-projects.vercel.app/contact)
+[Link](https://contact-form-rho-dusky.vercel.app/)
 
 ## License
 This project is licensed under the
