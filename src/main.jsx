@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import {Home, About, Contact} from "./pages/index.js"
 import Layout from './Layout.jsx'
+import { Toaster } from 'react-hot-toast'
 const router = createBrowserRouter([
   {
     path : '/',
@@ -28,5 +29,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Toaster/>
   </React.StrictMode>,
 )

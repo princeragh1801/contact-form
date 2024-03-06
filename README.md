@@ -1,8 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Contact Form with Google Sheets Integration
 
-Currently, two official plugins are available:
+This project is a simple React application that implements a contact form. The form includes fields for name, email, phone number, and message. Upon submission, the data is stored in a Google Sheets spreadsheet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+- Input field validation for name, email, and phone number.
+- Error messages displayed for invalid input.
+- Toast message displayed for successful submission.
+- Integration with Google Sheets for data storage.
+
+
+## Technologies Used
+- React.js
+- React Hook Form for form handling
+- Tailwind CSS for styling
+- Google Sheets API for data storage
+## Setup
+
+1. Clone the repository to your local machine:
+
+```bash
+  git clone https://github.com/princeragh1801/contact-form.git
+```
+   2.Navigate to the project directory:
+```bash
+  cd react-contact-form
+```
+3. Install dependencies:
+```bash
+  npm install
+```
+4. Create a `.env` file in the root directory and add the following environment variables:
+```bash
+VITE_SPREADSHEET_URL=<your-url>
+```
+## Usage
+
+- Fill out the contact form with your name, email, phone number, and message.
+- Upon submission, the data will be stored in the specified Google Sheets spreadsheet.
+- Error messages will be displayed if any fields are invalid.
+- A toast message will appear upon successful submission.
+
+
+## License
+This project is licensed under the
+[MIT License](https://choosealicense.com/licenses/mit/)
+

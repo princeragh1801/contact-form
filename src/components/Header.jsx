@@ -27,7 +27,7 @@ function Header() {
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">
             {navItems.map((item) => (
-              <li>
+              <li key={item.name}>
                 <NavLink
                   to={item.toPage}
                   className="text-lg font-semibold text-gray-800 hover:text-gray-900 hover:border-b-2 border-green-600"
